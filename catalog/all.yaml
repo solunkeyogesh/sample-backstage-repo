@@ -5,7 +5,7 @@ metadata:
 spec:
   type: file
   targets:
-    - catalog/users/solunkeyogesh.yaml
-    - catalog/groups/engineering.yaml
+    - ./users/solunkeyogesh.yaml
+    - ./groups/engineering.yaml
   rules:
     - allow: [User, Group]
