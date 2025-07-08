@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: users-and-groups
+spec:
+  type: file
+  targets:
+    - ./catalog/users/solunkeyogesh.yaml
+    - ./catalog/groups/engineering.yaml

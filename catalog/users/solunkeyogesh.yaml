@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: solunkeyogesh
+  annotations:
+    backstage.io/github-user: solunkeyogesh
+spec:
+  profile:
+    displayName: Yogesh Solunke
+    email: solunkeyogesh49@gmail.com
+    picture: https://avatars.githubusercontent.com/solunkeyogesh
+  memberOf: [engineering]
