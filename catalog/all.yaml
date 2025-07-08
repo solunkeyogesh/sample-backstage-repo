@@ -7,3 +7,5 @@ spec:
   targets:
     - users/solunkeyogesh.yaml
     - groups/engineering.yaml
+  rules:
+    - allow: [User, Group]
