@@ -6,8 +6,8 @@ spec:
   type: file
   targets:
     #- ./users/solunkeyogesh.yaml
-    - https://raw.githubusercontent.com/solunkeyogesh/sample-backstage-repo/main/catalog/users/solunkeyogesh.yaml
-    - https://raw.githubusercontent.com/solunkeyogesh/sample-backstage-repo/main/catalog/groups/engineering.yaml
+    - https://github.com/solunkeyogesh/sample-backstage-repo/blob/main/catalog/groups/engineering.yaml
+    - https://github.com/solunkeyogesh/sample-backstage-repo/blob/main/catalog/users/solunkeyogesh.yaml
     #- ./groups/engineering.yaml
   rules:
     - allow: [User, Group]
