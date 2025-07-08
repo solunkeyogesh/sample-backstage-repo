@@ -3,7 +3,7 @@ kind: Location
 metadata:
   name: users-and-groups
 spec:
-  type: file
+  type: url
   targets:
     - users/solunkeyogesh.yaml
     - groups/engineering.yaml
