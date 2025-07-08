@@ -3,7 +3,7 @@ kind: Location
 metadata:
   name: users-and-groups
 spec:
-  type: file
+  type: url
   targets:
     #- ./users/solunkeyogesh.yaml
     - https://github.com/solunkeyogesh/sample-backstage-repo/blob/main/catalog/groups/engineering.yaml
